@@ -1,10 +1,11 @@
-from flask import Flask
+import streamlit as st
 
-app = Flask(__name__)
+# Title of the web app
+st.title("Azure Web App Connection Check")
 
-@app.route('/')
-def home():
-    return "You have reached MSI AIML"
+# Simple test to show a connection check
+st.write("This is a simple Streamlit app deployed on Azure Web App.")
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000)
+# Button to check connection
+if st.button("Check Connection"):
+    st.success("Connection successful! Your app is running on Azure.")
