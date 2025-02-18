@@ -1,3 +1,2 @@
-Flask==2.0.3
-streamlit==1.0.0
-protobuf<=3.20.1
+Flask
+streamlit
