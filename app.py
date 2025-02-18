@@ -1,8 +1,5 @@
 import streamlit as st
 
-# Set the port for Streamlit
-st.set_option('server.port', 8000)
-
 # Title of the web app
 st.title("Azure Web App Connection Check")
 
